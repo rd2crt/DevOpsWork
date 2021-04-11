@@ -11,12 +11,9 @@ import java.util.List;
 import com.ureb.usermanagement.model.User;
 
 /**
- * AbstractDAO.java This DAO class provides CRUD database operations for the
- * table users in the database.
- * 
- * @author Ramesh Fadatare
- *
+ * Mike Hewitson for DEV7002 DevOps Module
  */
+
 public class UserDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/demo?useSSL=false";
 	private String jdbcUsername = "root";

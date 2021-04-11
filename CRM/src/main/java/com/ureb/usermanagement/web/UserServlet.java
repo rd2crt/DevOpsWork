@@ -15,10 +15,7 @@ import com.ureb.usermanagement.dao.UserDAO;
 import com.ureb.usermanagement.model.User;
 
 /**
- * ControllerServlet.java This servlet acts as a page controller for the
- * application, handling all requests from the user.
- * 
- * @email Ramesh Fadatare
+ * Mike Hewitson for DEV7002 DevOps Module
  */
 
 @WebServlet("/")

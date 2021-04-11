@@ -1,5 +1,9 @@
 package com.ureb.usermanagement.model;
 
+/**
+ * Mike Hewitson for DEV7002 DevOps Module
+ */
+
 public class User {
 	protected int id;
 	protected String name;
