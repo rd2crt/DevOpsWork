@@ -1,0 +1,3 @@
+com\ureb\usermanagement\dao\UserDAO.class
+com\ureb\usermanagement\model\User.class
+com\ureb\usermanagement\web\UserServlet.class
