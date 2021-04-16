@@ -15,9 +15,9 @@ import com.ureb.usermanagement.model.User;
  */
 
 public class UserDAO {
-	private String jdbcURL = "jdbc:mysql://localhost:3306/demo?useSSL=false";
-	private String jdbcUsername = "root";
-	private String jdbcPassword = "Z!mr4fl4me";
+	private String jdbcURL = "jdbc:mysql://0.0.0.0:3306/demo?useSSL=false";
+	private String jdbcUsername = "remoteuser";
+	private String jdbcPassword = "cld7002s3cr3T";
 
 	private static final String INSERT_USERS_SQL = "INSERT INTO users" + "  (name, email, country) VALUES "
 			+ " (?, ?, ?);";
