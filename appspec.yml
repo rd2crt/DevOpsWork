@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /target/CRM.war
-    destination: /tmp/codedeploy-deployment-staging-area/
+    destination: /opt/tomcat/webapps/
 hooks:
   ApplicationStop:
     - location: scripts/stop_application
