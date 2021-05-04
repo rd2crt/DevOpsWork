@@ -4,7 +4,3 @@ files:
   - source: /target/CRM.war
     destination: /opt/tomcat/webapps/
 hooks:
-  BeforeInstall:
-    - location: scripts/cleanup.sh
-      timeout: 300
-  
