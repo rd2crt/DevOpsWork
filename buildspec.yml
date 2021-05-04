@@ -10,3 +10,4 @@ artifacts:
   files:
     - appspec.yml
     - target/CRM.war
+    - scripts/*
