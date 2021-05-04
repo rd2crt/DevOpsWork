@@ -10,4 +10,6 @@ artifacts:
   files:
     - appspec.yml
     - target/CRM.war
-    - scripts/*
+    - scripts/stop_server.sh
+    - scripts/cleanup.sh
+    - scripts/start_server.sh
