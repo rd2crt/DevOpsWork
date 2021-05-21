@@ -1,14 +1,2 @@
 version: 0.1
 
-phases:
-  build:
-    commands:
-      - echo Build completed on `date`
-      - mvn install
-
-artifacts:
-  files:
-    - appspec.yml
-    - target/CRM.war
-    - scripts/stop_server.sh
-
