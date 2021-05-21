@@ -11,5 +11,4 @@ artifacts:
     - appspec.yml
     - target/CRM.war
     - scripts/stop_server.sh
-    - scripts/cleanup.sh
-    - scripts/start_server.sh
+
